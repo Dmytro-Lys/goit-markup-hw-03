@@ -160,10 +160,12 @@ img {
   overflow: hidden;
 }
 /* index section1 */
+.index-section1 {
+  padding: 120px 0px;
+}
 .index-section1-ul {
   list-style: none;
   gap: 24px;
-  padding: 120px 0px;
 }
 .index-section1-item {
   line-height: calc(24 / 18);
