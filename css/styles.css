@@ -16,17 +16,20 @@
   --col-navy-blue-shadow1: rgba(46, 47, 66, 0.08);
   --col-navy-blue-shadow2: rgba(46, 47, 66, 0.16);
 }
+/* margin 0 */
 h1,
 h2,
 h3,
 p {
   margin: 0;
 }
+/* ul flex */
 ul {
   margin: 0;
   padding: 0;
   display: flex;
 }
+/* images */
 img {
   display: block;
 }
@@ -38,11 +41,17 @@ img {
   margin-left: auto;
   margin-right: auto;
 }
+/* flex-header */
 .flex-header {
   display: flex;
   /* align-items: center; */
   gap: 76px;
 }
+/* for sections */
+.section {
+  padding: 120px 0px;
+}
+
 .index-section-flex {
   gap: 24px;
 }
@@ -159,10 +168,8 @@ img {
   clip: rect(0 0 0 0);
   overflow: hidden;
 }
-/* index section1 */
-.index-section-strategy {
-  padding: 120px 0px;
-}
+/* index section1 strategy*/
+
 .index-section-strategy-ul {
   list-style: none;
   gap: 24px;
@@ -179,7 +186,7 @@ img {
   margin-bottom: 8px;
 }
 .index-section-work {
-  padding-bottom: 120px;
+  padding-top: 0px;
 }
 /* index section2 work */
 .index-section-work-h2 {
@@ -203,7 +210,6 @@ img {
 /* index section3 team */
 .index-section-team {
   background-color: var(--col-cloud);
-  padding: 120px 0px;
 }
 .index-section-team-h2 {
   font-size: 36px;
@@ -260,7 +266,6 @@ img {
 /* hero */
 .portfolio-section-hero {
   padding-top: 96px;
-  padding-bottom: 120px;
 }
 .portfolio-hero-btns {
   list-style: none;
@@ -304,7 +309,6 @@ img {
   height: 300px;
 }
 .portfolio-hero-text {
-  /* border: 1px solid var(--col-cornflower); */
   border-left: 1px solid var(--col-cornflower);
   border-right: 1px solid var(--col-cornflower);
   border-bottom: 1px solid var(--col-cornflower);
