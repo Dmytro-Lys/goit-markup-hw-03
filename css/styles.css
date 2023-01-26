@@ -46,6 +46,7 @@ img {
 .index-section-flex {
   gap: 24px;
 }
+
 /* body */
 .body {
   font-family: "Roboto", sans-serif;
@@ -223,12 +224,16 @@ img {
 .index-section3-cards-img {
   height: 260px;
 }
+.index-section3-cards-text {
+  padding: 32px 0px;
+}
 .index-section3-cards-h3 {
   font-weight: 500;
   font-size: 20px;
   line-height: calc(24 / 20);
   text-align: center;
   color: var(--col-navy-blue);
+  margin-bottom: 8px;
 }
 .index-section3-cards-p {
   line-height: calc(24 / 18);
@@ -253,6 +258,9 @@ img {
 /* hero */
 .portfolio-hero-btns {
   list-style: none;
+  justify-content: center;
+  margin-top: 96px;
+  margin-bottom: 72px;
 }
 .portfolio-hero-btn {
   font-family: inherit;
@@ -263,6 +271,7 @@ img {
   background-color: var(--col-cloud);
   border: 1px solid var(--col-cornflower);
   border-radius: 4px;
+  padding: 12px 24px;
 }
 .portfolio-hero-btn:focus,
 .portfolio-hero-btn:hover {
@@ -271,6 +280,9 @@ img {
 }
 .portfolio-hero-ul {
   list-style: none;
+  flex-wrap: wrap;
+  gap: 48px 24px;
+  margin-bottom: 120px;
 }
 .portfolio-hero-items {
   width: 360px;
