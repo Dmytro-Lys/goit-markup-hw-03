@@ -15,6 +15,7 @@
   --col-btn-shadow: rgba(0, 0, 0, 0.15);
   --col-navy-blue-shadow1: rgba(46, 47, 66, 0.08);
   --col-navy-blue-shadow2: rgba(46, 47, 66, 0.16);
+  background-color: var(--col-background);
 }
 /* margin 0 */
 h1,
@@ -61,7 +62,10 @@ img {
   font-family: "Roboto", sans-serif;
   letter-spacing: 0.02em;
   color: var(--col-slate);
+  background-color: var(--col-white);
   width: 1440px;
+  margin-left: auto;
+  margin-right: auto;
 }
 /* header */
 .header {
@@ -71,17 +75,17 @@ img {
 }
 
 /* logo */
-.logo {
+.header-logo-left {
   font-family: "Raleway", sans-serif;
   font-weight: 800;
   font-size: 18px;
-  line-height: calc(21 / 18);
+  line-height: calc(24 / 18);
   letter-spacing: 0.03em;
   text-transform: uppercase;
   text-decoration: none;
   color: var(--col-iris);
 }
-.header-logo {
+.header-logo-right {
   color: var(--col-navy-blue);
 }
 /* nav */
@@ -142,9 +146,10 @@ img {
   cursor: pointer;
   background-color: var(--col-iris);
   font-weight: 500;
-  line-height: calc(24 / 18);
+  line-height: calc(24 / 16);
   letter-spacing: 0.04em;
   box-shadow: 0px 4px 4px var(--col-btn-shadow);
+  border: none;
   border-radius: 4px;
   padding: 16px 32px;
   display: block;
@@ -175,7 +180,7 @@ img {
   gap: 24px;
 }
 .index-section-strategy-item {
-  line-height: calc(24 / 18);
+  line-height: calc(24 / 16);
   width: 264px;
 }
 .index-section-strategy-h3 {
@@ -244,7 +249,7 @@ img {
   margin-bottom: 8px;
 }
 .index-section-team-cards-p {
-  line-height: calc(24 / 18);
+  line-height: calc(24 / 16);
   text-align: center;
 }
 /* footer */
@@ -252,9 +257,21 @@ img {
   background-color: var(--col-navy-blue);
   padding: 100px 0px;
 }
-.footer-logo {
+.footer-logo-left {
+  font-family: "Raleway", sans-serif;
+  font-weight: 800;
+  font-size: 18px;
+  line-height: calc(22 / 18);
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+  text-decoration: none;
+  color: var(--col-iris);
+  display: block;
+}
+.footer-logo-right {
   color: var(--col-cloud);
 }
+
 .footer-p {
   color: var(--col-cornflower);
   line-height: calc(24 / 16);
@@ -275,6 +292,8 @@ img {
 .portfolio-hero-btn {
   font-family: inherit;
   font-weight: 500;
+  font-size: 16px;
+  line-height: calc(24 / 16);
   letter-spacing: 0.04em;
   color: var(--col-iris);
   cursor: pointer;
