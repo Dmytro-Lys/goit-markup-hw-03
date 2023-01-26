@@ -38,10 +38,13 @@ img {
   margin-left: auto;
   margin-right: auto;
 }
-.container-flex {
+.flex-header {
   display: flex;
-  align-items: center;
+  /* align-items: center; */
   gap: 76px;
+}
+.index-section-flex {
+  gap: 24px;
 }
 /* body */
 .body {
@@ -62,7 +65,7 @@ img {
   font-family: "Raleway", sans-serif;
   font-weight: 800;
   font-size: 18px;
-  line-height: calc(24 / 18);
+  line-height: calc(21 / 18);
   letter-spacing: 0.03em;
   text-transform: uppercase;
   text-decoration: none;
@@ -111,7 +114,7 @@ img {
 /* index hero */
 .index-section-hero {
   background-color: var(--col-navy-blue);
-  padding: 188px;
+  padding: 188px 0px;
 }
 .index-hero-h1 {
   width: 494px;
@@ -158,17 +161,23 @@ img {
 /* index section1 */
 .index-section1-ul {
   list-style: none;
+  gap: 24px;
+  padding: 120px 0px;
 }
 .index-section1-item {
   line-height: calc(24 / 18);
+  width: 264px;
 }
 .index-section1-h3 {
   font-weight: 500;
   font-size: 20px;
   line-height: calc(24 / 20);
   color: var(--col-navy-blue);
+  margin-bottom: 8px;
 }
-
+.index-section2 {
+  margin-bottom: 120px;
+}
 /* index section2 work */
 .index-section2-h2 {
   font-size: 36px;
@@ -176,6 +185,7 @@ img {
   text-align: center;
   text-transform: capitalize;
   color: var(--col-navy-blue);
+  margin-bottom: 72px;
 }
 .index-section2-ul {
   list-style: none;
@@ -190,12 +200,14 @@ img {
 /* index section3 team */
 .index-section3 {
   background-color: var(--col-cloud);
+  padding: 120px 0px;
 }
 .index-section3-h2 {
   font-size: 36px;
   line-height: calc(40 / 36);
   text-align: center;
   text-transform: capitalize;
+  margin-bottom: 72px;
 }
 .index-section3-cards {
   list-style: none;
@@ -225,17 +237,16 @@ img {
 /* footer */
 .footer {
   background-color: var(--col-navy-blue);
-  padding-top: 100px;
-  padding-bottom: 100px;
+  padding: 100px 0px;
 }
 .footer-logo {
   color: var(--col-cloud);
 }
 .footer-p {
   color: var(--col-cornflower);
-  line-height: calc(24 / 18);
+  line-height: calc(24 / 16);
   margin-top: 16px;
-  /* margin-right: 864px; */
+  margin-right: 864px;
 }
 /* portfolio */
 /* main */
