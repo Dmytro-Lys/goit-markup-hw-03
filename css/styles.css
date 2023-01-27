@@ -45,8 +45,6 @@ img {
 /* flex-header */
 .flex-header {
   display: flex;
-  /* align-items: center; */
-  gap: 76px;
 }
 /* for sections */
 .section {
@@ -87,10 +85,11 @@ img {
 }
 .header-logo-right {
   color: var(--col-navy-blue);
+  margin-right: 76px;
 }
 /* nav */
 .navigation {
-  margin-right: 256px;
+  margin-right: auto;
 }
 .nav-ul {
   /* display: inherit; */
@@ -177,11 +176,11 @@ img {
 
 .index-section-strategy-ul {
   list-style: none;
-  gap: 24px;
+  /* gap: 24px; */
 }
 .index-section-strategy-item {
   line-height: calc(24 / 16);
-  width: 264px;
+  flex-basis: 264px;
 }
 .index-section-strategy-h3 {
   font-weight: 500;
@@ -313,7 +312,7 @@ img {
   gap: 48px 24px;
 }
 .portfolio-hero-items {
-  width: 360px;
+  flex-basis: 360px;
 }
 .portfolio-hero-a {
   text-decoration: none;
