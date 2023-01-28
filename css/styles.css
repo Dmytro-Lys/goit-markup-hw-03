@@ -81,10 +81,10 @@ img {
   text-transform: uppercase;
   text-decoration: none;
   color: var(--col-iris);
+  margin-right: 76px;
 }
 .header-logo-right {
   color: var(--col-navy-blue);
-  margin-right: 76px;
 }
 /* nav */
 .navigation {
