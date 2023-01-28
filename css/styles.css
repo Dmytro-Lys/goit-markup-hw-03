@@ -19,7 +19,7 @@
   --cont-padding-left: 15px;
   --cont-padding-right: 15px;
   --sect-flex-gap: 24px;
-  }
+}
 /* margin 0 */
 h1,
 h2,
@@ -176,7 +176,12 @@ img {
 }
 .index-section-strategy-item {
   line-height: calc(24 / 16);
-  flex-basis: calc((var(--cont-width) - var(--cont-padding-left) - var(--cont-padding-right) - var(--sect-flex-gap) * 3) / 4);
+  flex-basis: calc(
+    (
+        var(--cont-width) - var(--cont-padding-left) - var(--cont-padding-right) -
+          var(--sect-flex-gap) * 3
+      ) / 4
+  );
 }
 .index-section-strategy-h3 {
   font-weight: 500;
@@ -201,13 +206,17 @@ img {
   list-style: none;
 }
 .index-section-work-item {
- border: 1px solid var(--col-cornflower);
- flex-basis: calc((var(--cont-width) - var(--cont-padding-left) - var(--cont-padding-right) - var(--sect-flex-gap) * 2) / 3 );
+  border: 1px solid var(--col-cornflower);
+  flex-basis: calc(
+    (
+        var(--cont-width) - var(--cont-padding-left) - var(--cont-padding-right) -
+          var(--sect-flex-gap) * 2
+      ) / 3
+  );
 }
 .index-section-work-img-work {
-  width: 360px
+  width: 360px;
   height: 300px;
-  
 }
 /* index section3 team */
 .index-section-team {
@@ -230,7 +239,12 @@ img {
     0px 2px 1px var(--col-navy-blue-shadow1);
   border-radius: 0px 0px 4px 4px;
   /* flex-basis: calc((1158px-15px-15px-24px*3)/4); */
-  flex-basis: calc((var(--cont-width) - var(--cont-padding-left) - var(--cont-padding-right) - var(--sect-flex-gap) * 3) / 4);
+  flex-basis: calc(
+    (
+        var(--cont-width) - var(--cont-padding-left) - var(--cont-padding-right) -
+          var(--sect-flex-gap) * 3
+      ) / 4
+  );
 }
 .index-section-team-cards-img {
   width: 264px;
@@ -312,7 +326,12 @@ img {
   gap: 48px var(--sect-flex-gap);
 }
 .portfolio-hero-items {
-  flex-basis: calc((var(--cont-width) - var(--cont-padding-left) - var(--cont-padding-right) - var(--sect-flex-gap) * 2) / 3);
+  flex-basis: calc(
+    (
+        var(--cont-width) - var(--cont-padding-left) - var(--cont-padding-right) -
+          var(--sect-flex-gap) * 2
+      ) / 3
+  );
 }
 .portfolio-hero-a {
   text-decoration: none;
