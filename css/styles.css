@@ -238,7 +238,6 @@ img {
     0px 1px 1px var(--col-navy-blue-shadow2),
     0px 2px 1px var(--col-navy-blue-shadow1);
   border-radius: 0px 0px 4px 4px;
-  /* flex-basis: calc((1158px-15px-15px-24px*3)/4); */
   flex-basis: calc(
     (
         var(--cont-width) - var(--cont-padding-left) - var(--cont-padding-right) -
